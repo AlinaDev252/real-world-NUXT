@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  // property udes by vue-meta
+  // property used by vue-meta
   head() {
     return {
       title: "Create an Event",
