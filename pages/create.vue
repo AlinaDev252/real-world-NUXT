@@ -6,16 +6,15 @@
 
 <script>
 export default {
-// property udes by vue-meta
+  // property udes by vue-meta
   head() {
     return {
-      title: "Create an Event- Real World Events",
+      title: "Create an Event",
       meta: [
         {
           hid: "description",
           name: "description",
-          content:
-            "You can create a new event in your neighborhood"
+          content: "You can create a new event in your neighborhood"
         }
       ]
     };

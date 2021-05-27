@@ -6,18 +6,10 @@
 
 <script>
 export default {
-// property udes by vue-meta
+  // property udes by vue-meta
   head() {
     return {
-      title: "Event Listing- Real World Events",
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content:
-            "Where you can find all the events taking place in your neighborhood"
-        }
-      ]
+      title: "Event Listing"
     };
   }
 };
