@@ -4,7 +4,7 @@
       xmlns="http://www.w3.org/2000/svg"
       width="90"
       height="90"
-      fill="#DBE1EC"
+      fill="#DBE1EC"npm
       viewBox="0 0 48 48"
     >
       <path
