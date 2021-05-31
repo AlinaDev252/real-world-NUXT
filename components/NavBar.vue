@@ -3,7 +3,13 @@
     <nuxt-link to="/" class="brand">Real World Events</nuxt-link>
     <nav>
       <nuxt-link to="/">List</nuxt-link> |
-      <nuxt-link to="/event/create">Create</nuxt-link>
+      <nuxt-link to="/event/create">Create</nuxt-link> |
+      <nuxt-link to="/">
+        <img
+          class="pic"
+          src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurvy&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=PastelRed&eyeType=Side&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Light"
+        />
+      </nuxt-link>
     </nav>
   </div>
 </template>
@@ -34,5 +40,10 @@
 }
 .nav a {
   display: inline-block;
+}
+.nav .pic {
+  width: 2em;
+  height: 1.8em;
+  margin-bottom: -1vh;
 }
 </style>
